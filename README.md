@@ -32,4 +32,18 @@ npm run dev
 
 ## 效果预览
 
-![首页截图](./docs/home.png)
+### 首页推荐
+
+![首页推荐](./photos/home.png)
+
+### 分类浏览
+
+![分类浏览](./photos/category.png)
+
+### 购物车管理
+
+![购物车管理](./photos/cart.png)
+
+### 个人中心
+
+![个人中心](./photos/user.png)
