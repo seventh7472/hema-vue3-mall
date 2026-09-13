@@ -1,11 +1,12 @@
 /**
  * 个人中心 Mock 数据
  */
+import { assetUrl } from '@/utils/asset'
 
 export const mockUserInfo = {
   id: 1001,
   nickname: '盒马小当家',
-  avatar: '/images/avatar.svg',
+  avatar: assetUrl('/images/avatar.svg'),
   level: '银卡会员',
   levelText: '再消费 ¥200 升级金卡',
   points: 1280,

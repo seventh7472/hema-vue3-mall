@@ -1,4 +1,5 @@
 <script setup>
+import { assetUrl } from '@/utils/asset'
 import { computed, onMounted } from 'vue'
 import { getUserInfo } from '@/api/user'
 import { useUserStore } from '@/store/modules/user'
@@ -26,7 +27,7 @@ onMounted(async () => {
     <header class="user-card">
       <img
         class="avatar"
-        :src="userInfo?.avatar || '/images/avatar.svg'"
+        :src="userInfo?.avatar || assetUrl('/images/avatar.svg')"
         alt="头像"
       />
       <div class="user-info">
