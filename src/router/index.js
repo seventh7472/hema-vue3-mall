@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 // 布局组件同样懒加载
 const TabBarLayout = () => import('@/layouts/TabBarLayout.vue')
