@@ -1,0 +1,82 @@
+/* ============================================================
+ * 盒马生鲜 · 全局设计 Token
+ * 设计稿基准：375px（移动端）
+ * 主色调：盒马蓝 #00A9E0
+ * ============================================================ */
+
+:root {
+  /* ---------- 品牌主色 ---------- */
+  --color-primary: #00A9E0;          /* 盒马蓝 · 主色 */
+  --color-primary-light: #33BBE6;    /* 主色 · 浅（hover/渐变） */
+  --color-primary-dark: #0089B8;     /* 主色 · 深（按压态） */
+  --color-primary-bg: #E6F7FC;       /* 主色 · 淡背景（标签/选中底） */
+
+  /* ---------- 辅助色 ---------- */
+  --color-price: #FF6A00;            /* 价格 / 促销 · 橙 */
+  --color-fresh: #6DBE45;            /* 新鲜 / 成功 · 绿 */
+  --color-danger: #FF3B30;           /* 警示 / 错误 · 红 */
+  --color-warning: #FF9500;          /* 警告 / 待付款 · 橙黄 */
+  --color-vip: #8B5CF6;              /* 会员 / 尊享 · 紫 */
+  --color-tag: #FFF3E0;              /* 促销标签底色 */
+
+  /* ---------- 文字色 ---------- */
+  --text-primary: #1A1A1A;           /* 主标题 / 正文 */
+  --text-regular: #4A4A4A;           /* 常规文字 */
+  --text-secondary: #8C8C8C;         /* 辅助说明 */
+  --text-placeholder: #BBBBBB;       /* 占位符 / 禁用 */
+  --text-inverse: #FFFFFF;           /* 反白文字 */
+
+  /* ---------- 背景色 ---------- */
+  --bg-page: #F5F6F8;                /* 页面底色 */
+  --bg-card: #FFFFFF;                /* 卡片 / 容器 */
+  --bg-mask: rgba(0, 0, 0, 0.5);     /* 遮罩层 */
+
+  /* ---------- 边框 / 分割线 ---------- */
+  --border-color: #EBEDF0;           /* 常规边框 */
+  --border-color-dark: #DCDFE6;      /* 深边框 */
+
+  /* ---------- 字号（px） ---------- */
+  --font-size-xs: 10px;              /* 角标 / 极小 */
+  --font-size-sm: 12px;              /* 说明 / 标签 */
+  --font-size-base: 14px;            /* 正文 */
+  --font-size-md: 16px;              /* 次要标题 */
+  --font-size-lg: 18px;              /* 标题 */
+  --font-size-xl: 20px;              /* 大标题 */
+  --font-size-xxl: 24px;             /* 金额 / 页面主标题 */
+
+  /* ---------- 圆角 ---------- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-round: 999px;             /* 胶囊 / 圆形 */
+
+  /* ---------- 间距 ---------- */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-xxl: 24px;
+  --space-xxxl: 32px;
+
+  /* ---------- 层级 ---------- */
+  --z-index-tabbar: 100;             /* 底部导航 */
+  --z-index-sticky: 200;             /* 吸顶 */
+  --z-index-popup: 300;              /* 弹层 */
+  --z-index-mask: 400;               /* 遮罩 */
+  --z-index-toast: 500;              /* 提示 */
+
+  /* ---------- 阴影 ---------- */
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06);       /* 卡片投影 */
+  --shadow-float: 0 4px 16px rgba(0, 0, 0, 0.12);     /* 悬浮投影 */
+
+  /* ---------- 布局 ---------- */
+  --tabbar-height: 50px;             /* 底部导航高度 */
+  --header-height: 44px;             /* 顶部栏高度 */
+  --content-max-width: 750px;        /* 内容最大宽度（居中） */
+
+  /* ---------- 其他 ---------- */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.3s;
+}
